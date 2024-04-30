@@ -1,0 +1,140 @@
+body {
+  font-family: 'Roboto', 'Raleway' sans-serif;
+  background: #fff;
+  width: 1440px;
+  height: 3300px;
+}
+
+.name-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  line-height: 1.16667;
+  letter-spacing: 4%;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.name-logo-tech {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  line-height: 1.16667;
+  letter-spacing: 4%;
+  text-transform: uppercase;
+  color: #2e2f42;
+  text-decoration: none;
+}
+.link-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  color: #2e2f42;
+  text-decoration: none;
+}
+.Contacts {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #434455;
+  text-decoration: none;
+}
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  line-height: 1.07143;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #fff;
+}
+button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  color: #fff;
+  border-radius: 4px;
+  padding: 16px 32px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  cursor: pointer;
+}
+.seccion-box {
+  background: #2e2f42;
+}
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  line-height: 1.2;
+  letter-spacing: 2%;
+  color: #2e2f42;
+  text-decoration: none;
+}
+.descri {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 14px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  color: #434455;
+  text-decoration: none;
+}
+.seccion-box-team {
+  background: #f4f4fd;
+}
+.team-card {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+.team-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.Portfolio-box {
+  text-decoration: none;
+}
+.footer {
+  background: #2e2f42;
+}
+.name-logo-tech-white {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  line-height: 1.16667;
+  letter-spacing: 2%;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.descri-footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  color: #f4f4fd;
+}
