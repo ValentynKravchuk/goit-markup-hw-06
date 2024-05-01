@@ -1,13 +1,13 @@
 body {
   font-family: 'Roboto', sans-serif;
   background: #fff;
-  color: #434455
+  color: #434455;
   width: 1440px;
   height: 3300px;
 }
 /* top line */
-.name-logo {
-  font-family: "Raleway", sans-serif
+.logo {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
@@ -17,11 +17,11 @@ body {
   color: #4d5ae5;
   text-decoration: none;
 }
-.name-logo-tech {
+.logo-tech {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -36,40 +36,42 @@ body {
   color: #2e2f42;
   text-decoration: none;
 }
-.link-nav:hover,.link-nav:focus{
+.link-nav:hover,
+.link-nav:focus {
   color: #404bbf;
 }
-
 
 .contacts {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  font-style: normal
+  font-style: normal;
 }
-.contacts:hover,.contacts:focus{
+.contacts:hover,
+.contacts:focus {
   color: #404bbf;
 }
 /* seccion 1 */
-h1 {
+.title-hero {
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
-  line-height: 1.07143;
-  letter-spacing: 0.03em;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 .button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   color: #fff;
   border-radius: 4px;
   padding: 16px 32px;
@@ -77,33 +79,24 @@ h1 {
   background: #4d5ae5;
   cursor: pointer;
 }
-.button:hover,.button:focus{
-  background-color: #404BBF;
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
 .seccion-box {
   background: #2e2f42;
 }
 /* seccion 2 */
-.list-seccion {
+.list-header {
   list-style-type: none;
   text-decoration: none;
-}
-.seccion-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  text-transform: capitalize;
 }
 .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
 }
@@ -116,6 +109,17 @@ h1 {
   color: #434455;
   text-decoration: none;
 }
+.seccion-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
 /* seccion 3 */
 .seccion-box-team {
   background: #f4f4fd;
@@ -142,10 +146,11 @@ h1 {
   background: #2e2f42;
 }
 .name-logo-tech-white {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
