@@ -2,8 +2,6 @@ body {
   font-family: 'Roboto', sans-serif;
   background: #fff;
   color: #434455;
-  width: 1440px;
-  height: 3300px;
 }
 /* top line */
 .logo {
@@ -39,6 +37,9 @@ body {
 .link-nav:hover,
 .link-nav:focus {
   color: #404bbf;
+}
+.item-contacts {
+  font-style: normal;
 }
 
 .contacts {
