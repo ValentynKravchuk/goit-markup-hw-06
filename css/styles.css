@@ -29,6 +29,7 @@ ul {
 .header-nav {
   display: flex;
   align-items: center;
+  margin-top: 24px;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -74,6 +75,9 @@ ul {
 }
 .item-contacts {
   font-style: normal;
+  display: flex;
+  align-items: center;
+  margin: 35px 0 24px 332px;
 }
 .list-header-contacts {
   list-style-type: none;
