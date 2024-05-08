@@ -3,7 +3,7 @@ body {
   background: #fff;
   color: #434455;
 }
-/* top line */
+/* top line header*/
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -23,6 +23,10 @@ body {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #2e2f42;
+  text-decoration: none;
+}
+.list-header {
+  list-style-type: none;
   text-decoration: none;
 }
 .link-nav {
@@ -56,8 +60,11 @@ body {
 .contacts:focus {
   color: #404bbf;
 }
-/* seccion 1 */
-.title-hero {
+/* main seccion 1  */
+.box-solutions {
+  background: #2e2f42;
+}
+.title-solutions {
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
@@ -81,15 +88,22 @@ body {
 .button:focus {
   background-color: #404bbf;
 }
-.seccion-box {
-  background: #2e2f42;
+/* main seccion 2 */
+.title-features {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
-/* seccion 2 */
-.list-header {
+.list-features {
   list-style-type: none;
   text-decoration: none;
 }
-.title {
+.title-points {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -107,7 +121,12 @@ body {
   color: #434455;
   text-decoration: none;
 }
-.seccion-title {
+
+/* main seccion 3 */
+.box-team {
+  background: #f4f4fd;
+}
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -117,13 +136,21 @@ body {
   color: #2e2f42;
   text-transform: capitalize;
 }
-
-/* seccion 3 */
-.seccion-box-team {
-  background: #f4f4fd;
-}
 .team-card {
   background: #fff;
+}
+.list-team {
+  list-style-type: none;
+  text-decoration: none;
+}
+.name-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
 }
 .team-profession {
   font-weight: 400;
@@ -133,9 +160,40 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* seccion 4 */
-.Portfolio-box {
+/* main seccion 4 */
+.box-portfolio {
   text-decoration: none;
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+.list-portfolio {
+  list-style-type: none;
+  text-decoration: none;
+}
+.project-name-portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 /* footer */
 .footer {
