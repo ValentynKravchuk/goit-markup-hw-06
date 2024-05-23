@@ -3,7 +3,6 @@ body {
   background: #fff;
   color: #434455;
   color: var(--white, #ffffff);
-  background-color: var(--blue, #4d5ae5);
 }
 img {
   display: block;
@@ -318,7 +317,7 @@ ul {
   margin-bottom: 8px;
 }
 .container-team {
-  /* margin: 32px; */
+  margin-top: 32px;
 }
 
 .name-title {
