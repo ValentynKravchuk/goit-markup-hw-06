@@ -692,7 +692,7 @@ button {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-overlay:focus {
+.input-overlay:focus + .icon-overlay {
   fill: #4d5ae5;
 }
 .container-textarea {
@@ -734,7 +734,7 @@ button {
   color: #8e8f99;
 }
 
-.icon-privacy:checked + .icon-privacy-wrap {
+.input-privacy:checked + .icon-privacy-wrap {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
