@@ -483,11 +483,16 @@
           <p class="title-subs">Subscribe</p>
           <form class="form-subs">
             <label class="label-subs">
-              <input class="input-subs" type="email" placeholder="E-mail" />
+              <input
+                class="input-subs"
+                name="email"
+                type="email"
+                placeholder="E-mail"
+              />
             </label>
-            <button class="btn-subs" type="button">
+            <button class="btn-subs" type="submit">
               Subscribe
-              <svg class="icon-subs" width="24" height="20">
+              <svg class="icon-subs" width="24" height="24">
                 <use href="./images/icons.svg#icon-Frame"></use>
               </svg>
             </button>
@@ -498,18 +503,17 @@
 
     <div class="modal-overlay">
       <div class="modal">
-        <div class="container-overlay">
-          <button class="btn-close" type="button">
-            <svg class="icon-close" width="8" height="8">
-              <use href="./images/icons.svg#icon-close-black"></use>
-            </svg>
-          </button>
-        </div>
+        <button class="btn-close" type="button">
+          <svg class="icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+
         <p class="title-overlay">
           Leave your contacts and we will call you back
         </p>
-        <div class="container-contacts-overlay">
-          <form class="form-overlay">
+        <form class="form-overlay">
+          <div class="container-contacts-overlay">
             <label class="label-overlay" for="user-name"> Name</label>
             <div class="container-input-icon">
               <div class="input-overlay-icon">
@@ -583,9 +587,8 @@
                 <a href="" class="input-privacy-link">Privacy Policy</a></label
               >
             </div>
-          </form>
-        </div>
-
+          </div>
+        </form>
         <button class="btn-send" type="button">Send</button>
       </div>
     </div>

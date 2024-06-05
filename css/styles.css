@@ -555,6 +555,7 @@ button {
 }
 .icon-subs {
   fill: #fff;
+  margin-left: 16px;
 }
 /* container */
 .container-header {
@@ -615,8 +616,6 @@ button {
   display: flex;
   flex-direction: column;
   padding: 0;
-}
-.container-overlay {
 }
 .btn-close {
   position: absolute;
