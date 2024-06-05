@@ -734,7 +734,7 @@ button {
   color: #8e8f99;
 }
 
-.input-privacy:checked + .icon-privacy-wrap {
+input[type='checkbox']:checked + .icon-privacy-wrap {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
