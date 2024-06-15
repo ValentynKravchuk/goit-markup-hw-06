@@ -187,7 +187,7 @@ button {
 .mobile-menu-list-icon {
   display: flex;
   gap: 40px;
-  margin-top: auto;
+  margin-top: 48px;
 }
 .mobile-menu-item-icon {
   width: 40px;
